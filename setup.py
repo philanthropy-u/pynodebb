@@ -29,7 +29,7 @@ setup(
 
     packages=find_packages(exclude=['contrib', 'docs', 'test*']),
     install_requires=[
-        'requests==2.7.0',
+        'requests==2.21.0',
     ],
     include_package_data=True,
     package_data={'': ['README.md', 'LICENSE.md']},
